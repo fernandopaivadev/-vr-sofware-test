@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>desktop-pedidos-1.0.0.jar</jar>
+  <outfile>OrderDesktopApp.exe</outfile>
+  <errTitle>pedidos-desktop</errTitle>
+  <chdir>.</chdir>
+  <customProcName>true</customProcName>
+  <stayAlive>false</stayAlive>
+  <classPath>
+    <mainClass>com.teste.desktop.OrderDesktopApp</mainClass>
+    <cp>lib/jackson-core-2.13.5.jar;lib/jackson-databind-2.13.5.jar;lib/jackson-annotations-2.13.5.jar</cp>
+  </classPath>
+  <jre>
+    <path>jre</path>
+    <minVersion>1.8.0</minVersion>
+  </jre>
+</launch4jConfig>

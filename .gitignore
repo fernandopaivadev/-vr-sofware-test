@@ -1,0 +1,15 @@
+target/
+*.class
+*.jar.original
+*.log
+*.pid
+*.zip
+*:Zone.Identifier
+.DS_Store
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+*.bak
+*.tmp
